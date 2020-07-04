@@ -1,6 +1,4 @@
 import numpy as np
-import scipy.signal as sp
-import wave, struct
 
 def DataNormalization(target, meanV=None, stdV=None):
 	nData, nDim = target.shape[0], target.shape[1]
