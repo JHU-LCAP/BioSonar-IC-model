@@ -10,7 +10,15 @@ This code was developed in the following condition.
   - h5py 2.10.0
   - numpy 1.16.6
 
-# Usage this code to build your model
-
+# Usage of this code
+  - Generate a set of auditory-spectrograms [1]
+    Ex) On MATLAB, Variable name: Data
+        Data = reshape(Data, [# of audio samples, 128 * nFrames])
+        save('./FILENAME.mat', 'Data', '-v7.3');
+  - Copy the mat file to the directory "./Data/FILENAME.mat"
+  - Modify two parameters, nTrnData and nValData.
+    Ex) Usually, 10 % of data is used for validation
+  - run, python train_mono_stacking.py
 
 # Reference
+  [1] Chi T, Shamma S. NSL Matlab Toolbox. University of Maryland, Colleage Park. 2005. 
