@@ -18,7 +18,7 @@ This code was developed in the following condition.
   - Copy the mat file to the directory "./Data/FILENAME.mat"
   - Modify two parameters, nTrnData and nValData.\
     Ex) Usually, 10 % of data is used for validation
-  - Run, Ex) python train_mono_stacking_model.py
-
+  - Run, python train_mono_stacking_model.py
+    
 # Reference
   [1] Chi T, Shamma S. NSL Matlab Toolbox. University of Maryland, Colleage Park. 2005. 
