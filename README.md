@@ -11,14 +11,14 @@ This code was developed in the following condition.
   - numpy 1.16.6
 
 # Usage of this code
-  - Generate a set of auditory-spectrograms [1]
-    Ex) On MATLAB, Variable name: Data
-        Data = reshape(Data, [# of audio samples, 128 * nFrames])
+  - Generate a set of auditory-spectrograms [1]\
+    Ex) On MATLAB, Variable name: Data\
+        Data = reshape(Data, [# of audio samples, 128 * nFrames]);\
         save('./FILENAME.mat', 'Data', '-v7.3');
   - Copy the mat file to the directory "./Data/FILENAME.mat"
-  - Modify two parameters, nTrnData and nValData.
+  - Modify two parameters, nTrnData and nValData.\
     Ex) Usually, 10 % of data is used for validation
-  - run, python train_mono_stacking.py
+  - Run, Ex) python train_mono_stacking_model.py
 
 # Reference
   [1] Chi T, Shamma S. NSL Matlab Toolbox. University of Maryland, Colleage Park. 2005. 
