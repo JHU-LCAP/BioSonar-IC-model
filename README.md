@@ -6,6 +6,8 @@ This code is to build a biomimetic network which emulates auditory characteristi
 This code was developed in the following condition.
   - CentOS Linux 7
   - Python 2.7
+  
+  Library dependencies
   - tensorflow 1.15.0
   - h5py 2.10.0
   - numpy 1.16.6
